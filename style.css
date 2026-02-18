@@ -1,0 +1,73 @@
+/* Estilos generales para el body */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Familia sans-serif para toda la web */
+    background-color: #B0C4DE; /* Fondo azul plateado suave para un toque elegante */
+    margin: 0; /* Elimina márgenes por defecto para mejor control */
+    padding: 0;
+    color: #000000; /* Texto negro para contraste y profesionalismo */
+}
+
+/* Efecto "folio" para el contenedor principal */
+main {
+    background-color: #FFFFFF; /* Fondo blanco para el contenido principal */
+    max-width: 800px; /* Ancho máximo limitado */
+    margin: 0 auto; /* Centrado horizontal con márgenes automáticos */
+    padding: 20px; /* Relleno interior para que el texto no toque los bordes */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra sutil negra para efecto de folio */
+    border: 1px solid #000000; /* Borde fino negro para definir el folio */
+}
+
+/* Estilos para la foto de perfil - Más profesional con marco y sombra */
+header img {
+    width: 180px; /* Tamaño controlado basado en el HTML */
+    height: 155px;
+    border-radius: 50%; /* Esquinas redondas para hacerla circular */
+    display: block;
+    margin: 0 auto 20px; /* Centrada y espaciada */
+    border: 5px solid #000000; /* Borde fino negro para simular un marco */
+    background-color: #D3D3D3; /* Fondo gris claro detrás de la imagen para un efecto de marco */
+    padding: 5px; /* Espaciado interno para el marco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra ligera para profundidad y aspecto profesional */
+}
+
+/* Estilos para títulos */
+h1 {
+    color: #000000; /* Negro para títulos principales */
+    text-align: center; /* Alineado al centro */
+}
+
+h2 {
+    color: #333333; /* Gris oscuro sutil para subtítulos, manteniendo el negro como base */
+}
+
+/* Estilos para enlaces */
+a {
+    color: #4682B4; /* Azul plateado más oscuro para enlaces */
+    text-decoration: none; /* Quita el subrayado por defecto */
+}
+
+a:hover {
+    color: #000000; /* Cambio a negro al pasar el ratón para feedback sutil */
+    text-decoration: underline; /* Subrayado en hover para feedback */
+}
+
+/* Estilos para la tabla de idiomas */
+table {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    border-collapse: collapse; /* Bordes colapsados para mejor apariencia */
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #000000; /* Bordes negros finos para separar celdas */
+    padding: 8px; /* Espaciado interno */
+    text-align: left;
+}
+
+thead {
+    background-color: #B0C4DE; /* Fondo azul plateado suave para la cabecera */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F0F8FF; /* Fondo azul plateado muy claro para filas pares, para mejor legibilidad */
+}
